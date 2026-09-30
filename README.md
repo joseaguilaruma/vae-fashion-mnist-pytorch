@@ -35,8 +35,8 @@ El modelo fue entrenado durante 200 épocas utilizando GPU (CUDA). A lo largo de
 2.  **Visualización del Espacio Latente:** Representaciones bidimensionales (Dim 0 vs 1, Dim 3 vs 5, Dim 7 vs 4) de las componentes del vector $\mu$ del conjunto de test, mostrando cómo el modelo agrupa las distintas prendas de ropa en el espacio latente de forma no supervisada.
 ![Evolución del Error](support-images/vae-val-train-error.png)
 
-![Espacio Latente VAE](latent-space.png)
+![Espacio Latente VAE](support-images/latent-space.png)
 
-![Vector de Interpolación](vae-interpolacion-vector.png)
+![Vector de Interpolación](support-images/vae-interpolacion-vector.png)
 ---
 *Desarrollado por [Jose Francisco Aguilar Granados]((https://www.linkedin.com/in/jose-aguilar-b3113a406/))*
