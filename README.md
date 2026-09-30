@@ -33,6 +33,10 @@ Puedes ejecutarlo fácilmente en Google Colab o en local:
 El modelo fue entrenado durante 200 épocas utilizando GPU (CUDA). A lo largo del cuaderno se extraen y visualizan:
 1.  **Evolución del Error:** Gráficas de la función de pérdida comparando el conjunto de entrenamiento vs validación.
 2.  **Visualización del Espacio Latente:** Representaciones bidimensionales (Dim 0 vs 1, Dim 3 vs 5, Dim 7 vs 4) de las componentes del vector $\mu$ del conjunto de test, mostrando cómo el modelo agrupa las distintas prendas de ropa en el espacio latente de forma no supervisada.
-![Espacio Latente](latent_space.png)
+![Evolución del Error](vae-val-train-error.png)
+
+![Espacio Latente VAE](latent-space.png)
+
+![Vector de Interpolación](vae-interpolacion-vector.png)
 ---
 *Desarrollado por [Jose Francisco Aguilar Granados]((https://www.linkedin.com/in/jose-aguilar-b3113a406/))*
